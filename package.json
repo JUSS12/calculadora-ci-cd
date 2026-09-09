@@ -2,9 +2,12 @@
   "name": "calculadora-ci-cd",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "devDependencies": {
+    "eslint": "^10.10.0",
     "jest": "^30.0.0"
   }
 }
+

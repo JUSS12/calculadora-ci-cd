@@ -46,3 +46,5 @@ jobs:
 
       - name: Deploy
         run: echo "Deploy exitoso"
+      - name: Lint
+        run: npx eslint .
